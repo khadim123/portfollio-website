@@ -36,7 +36,13 @@ const allProjects = [
   },
 ];
 
-const ProjectDetailPage = ({ params }: { params: { slug: string } }) => {
+interface PageProps {
+  params: {
+    slug: string;
+  };
+}
+
+const ProjectDetailPage = ({ params }: PageProps) => {
   const project = allProjects.find((p) => p.slug === params.slug);
 
   if (!project) {
