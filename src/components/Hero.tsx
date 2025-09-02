@@ -26,7 +26,7 @@ const Hero: React.FC = () => {
           transition={{ duration: 0.8, delay: 0.3, ease: 'easeOut' }}
           className="mt-4 text-lg md:text-2xl text-gray-600 dark:text-gray-300 max-w-2xl mx-auto"
         >
-          I'm a passionate web developer creating modern and responsive web applications.
+          I&amp;apos;m a passionate web developer creating modern and responsive web applications.
         </motion.p>
         <motion.div
           initial={{ opacity: 0, scale: 0.8 }}
